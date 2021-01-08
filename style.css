@@ -1,0 +1,70 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(pink, lightblue);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, auto);
+  position: relative;
+  margin: 1em;
+  text-justify: center;
+  text-align: center;
+  width: 70vmin;
+  height: 70vmin;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px #222;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.grid-container > div {
+}
+
+.grid-container > div:hover {
+  border: -1px dotted black;
+}
+
+#one {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#two {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#three {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#four {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#five {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#six {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#seven {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#eight {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#nine {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#ten {
+  background-color: rgba(0, 0, 0, 1);
+}
